@@ -1,0 +1,23 @@
+.services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.img-wraper {
+  background-image: url(../images/400_65382290544ba.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 132px;
+  height: 132px;
+  line-height: 2em;
+  
+}

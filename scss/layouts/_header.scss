@@ -1,5 +1,38 @@
-.header {
-    padding: 0;
-    
+.site-header {
+  position: fixed;
+  width: 100%;
+  box-shadow: var(--header-shadow);
+  background-color: white;
+}
 
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  max-width: 1600px;
+}
+
+.navigation-list {
+  display: flex;
+
+  &__link {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.9px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+}
+
+.sidebar {
+  margin-left: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

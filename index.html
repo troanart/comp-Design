@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>comp-Design</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,189 +22,194 @@
 
   <body>
     <header class="site-header">
-      <div class="container">
-        <a href="#" class="logo">
-          <svg>
-            <use></use>
-          </svg>
-        </a>
-        <nav class="navigation">
+      <div class="container navigation">
+        <a href="#" class="logo link"> CompFort Service </a>
+        <nav class="nav">
           <ul class="navigation-list list">
-            <li class="navigation-list__item"><a class="navigation-list__link link" href="#">Услуги</a></li>
-            <li class="navigation-list__item"><a  class="navigation-list__link link" href="#">Цены</a></li>
-            <li class="navigation-list__item"><a  class="navigation-list__link link" href="#">Контакты</a></li>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link link" href="#">Услуги</a>
+            </li>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link link" href="#">Цены</a>
+            </li>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link link" href="#">Контакты</a>
+            </li>
           </ul>
           <div class="sidebar">
-            <svg>
-              <use></use>
-            </svg>
+            <a href="#">
+              <svg class="sidebar__icon">
+                <use href="./images/sprite.svg#phone-black-18dp-1-1"></use>
+              </svg>
+            </a>
           </div>
         </nav>
+      </div>
     </header>
-        <main>
-          <section class="banner section">
-            <div class="container">
+    <main>
+      <section class="banner section">
+        <div class="container">
+          <img
+            width="645"
+            height="607"
+            class="banner__img"
+            src="./images/2000_65381d53376fa.png"
+            alt=""
+          />
+          <h1 class="first-title">РЕМОНТ КОМПЬЮТЕРА НА ДОМУ</h1>
+          <p class="banner__paragraph">
+            осуществляет полный комплекс обслуживания компьютерной и офисной
+            техники в Одессе качественно и в срок
+          </p>
+        </div>
+      </section>
+      <section class="services section">
+        <div class="container">
+          <h2 class="second-title">Услуги</h2>
+          <hr class="bottom-line" />
+          <ul class="services-list list">
+            <li class="services-list__item">
+              <div class="img-wraper">
+                <!-- <img src="./images/400_653821c11e7b2.png" alt="" /> -->
+                <p class="services-list__paragraph">Ремонт и настройка ПК</p>
+              </div>
+            </li>
+            <li class="services-list__item">
+              <div class="img-wraper__router">
+                <img src="./images/400_65382247d44c0.png" alt="" />
+                <p class="services-list__paragraph">Настройка роутеров</p>
+              </div>
+            </li>
+            <li class="services-list__item">
+              <div class="img-wraper__wi-fi">
+                <img src="./images/400_65382290544ba.png" alt="" />
+                <p class="services-list__paragraph">
+                  Настройка смарт ТВ и приставок
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="prices section">
+        <div class="container">
+          <h2 class="second-title">Цены</h2>
+          <hr class="bottom-line" />
+          <ul class="prices-list list">
+            <li class="prices-list__item">
+              <svg>
+                <use href="./images/sprite.svg#wrench"></use>
+              </svg>
+              <h3 class="third-title">Диагностика - 200 грн</h3>
+              <p class="prices-list__paragrap">
+                В случае проведения ремонта бесплатно
+              </p>
+            </li>
+            <li class="prices-list__item">
+              <svg>
+                <use
+                  href="./images/sprite.svg#microsoft-25f22b2b6995ed-1"
+                ></use>
+              </svg>
+              <h3 class="third-title">Установка Windows - 350 грн</h3>
+              <p class="prices-list__paragrap">Установка Win Xp-11</p>
+            </li>
+            <li class="prices-list__item">
+              <svg>
+                <use
+                  href="./images/sprite.svg#l-settings-25f22b2c1e7e32-1"
+                ></use>
+              </svg>
+              <h3 class="third-title">
+                Техобслуживания ПК/ноутбуков от 500 грн
+              </h3>
+              <p class="prices-list__paragrap">
+                Чистка от пыли, замена термопасты
+              </p>
+            </li>
+            <li class="prices-list__item">
+              <svg>
+                <use
+                  href="./images/sprite.svg#wifi-protected-25f22b278cd7bf-1"
+                ></use>
+              </svg>
+              <h3 class="third-title">Настройка роутера - от 300 грн</h3>
+              <p class="prices-list__paragrap">
+                Настройка сетевых устройств разных провайдеров
+              </p>
+            </li>
+            <li class="prices-list__item">
+              <svg>
+                <use
+                  href="./images/sprite.svg#pc-monitor-25f22b2e5c625c-1"
+                ></use>
+              </svg>
+              <h3 class="third-title">Настройка смарт Тв - от 500 грн</h3>
+              <p class="prices-list__paragrap">
+                Установка виджетов/разблокировка региона/настройка смарт
+                приставок
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <h2 class="second-title">Контакт</h2>
+        <hr class="bottom-line" />
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-list__item">
+              <a
+                class="address-list__link link"
+                href=""
+                target="_blank"
+                rel="noopener no-referrer"
+                >адрес</a
+              >
+            </li>
+            <li class="address-list__item">
+              <a class="address-list__link link" href="tel:+380961111111">
+                +380961111111
+              </a>
+            </li>
+            <li class="address-list__item">
+              <a class="address-list__link link" href="tel:+380961111111">
+                +380961111111
+              </a>
+            </li>
+            <li class="address-list__item open_hours">
               <svg>
                 <use></use>
               </svg>
-            </div>
-            <h1 class="first-title">
-              РЕМОНТ КОМПЬЮТЕРА НА ДОМУ
-            </h1>
-            <p class="banner__paragraph">
-              осуществляет полный комплекс обслуживания компьютерной и офисной техники в Одессе качественно и в срок
-            </p>
-          </section>
-          <section class="services section">
-            <div class="container">
-              <h2 class="second-title">
-                Услуги
-              </h2>
-              <ul class="services-list list">
-                <li class="services-list__item">
-                  <img src="" alt="">
-                  <p class="services-list__paragraph">
-                    Ремонт и настройка ПК
-                  </p>
-                </li>
-                <li class="services-list__item">
-                  <img src="" alt="">
-                  <p class="services-list__paragraph">
-                    Настройка роутеров
+              Пн-Пт - 09:00 -20:00
+            </li>
+          </ul>
+        </address>
 
-                  </p>
-                </li>
-                <li class="services-list__item">
-                  <img src="" alt="">
-                  <p class="services-list__paragraph">
-                    Настройка смарт ТВ и приставок
-
-                  </p>
-                </li>
-              </ul>
+        <div class="form-container">
+          <form class="form">
+            <div class="form-groop">
+              <label>
+                <input type="text" placeholder="Полное Имя" />
+              </label>
             </div>
-          </section>
-          <section class="prices section">
-            <div class="container">
-              <h2 class="second-title">Цены</h2>
-                <ul class="prices-list list">
-                  <li class="prices-list__item">
-                    <svg>
-                      <use></use>
-                    </svg>
-                    <h3 class="third-title">
-                      Диагностика - 200 грн
-                    </h3>
-                    <p class="prices-list__paragrap">
-                      В случае проведения ремонта бесплатно
-                    </p>
-                  </li>
-                  <li class="prices-list__item">
-                    <svg>
-                      <use></use>
-                    </svg>
-                    <h3 class="third-title">
-                      Установка Windows - 350 грн
-                    </h3>
-                    <p class="prices-list__paragrap">
-                      Установка Win Xp-11
-                    </p>
-                  </li>
-                  <li class="prices-list__item">
-                    <svg>
-                      <use></use>
-                    </svg>
-                    <h3 class="third-title">
-                      Техобслуживания ПК/ноутбуков от 500 грн
-                    </h3>
-                    <p class="prices-list__paragrap">
-                      Чистка от пыли, замена термопасты
-                    </p>
-                  </li>
-                  <li class="prices-list__item">
-                    <svg>
-                      <use></use>
-                    </svg>
-                    <h3 class="third-title">
-                      Настройка роутера - от 300 грн
-                    </h3>
-                    <p class="prices-list__paragrap">
-                      Настройка сетевых устройств разных провайдеров
-                    </p>
-                  </li>
-                  <li class="prices-list__item">
-                    <svg>
-                      <use></use>
-                    </svg>
-                    <h3 class="third-title">
-                      Настройка смарт Тв - от 500 грн
-                    </h3>
-                    <p class="prices-list__paragrap">
-                      Установка виджетов/разблокировка региона/настройка смарт приставок
-                    </p>
-                  </li>
-                </ul>
+            <div class="form-groop">
+              <label>
+                <input type="text" placeholder="Полное Имя" />
+              </label>
             </div>
-          </section>
-        </main>
-        <footer class="site-footer">
-          <div class="container">
-            <h2 class="second-title">Контакт</h2>
-            <address class="address">
-              <ul class="address-list list">
-                <li class="address-list__item">
-                  <a 
-                  class="address-list__link link"
-                  href=""
-                  target="_blank"
-                  rel="noopener no-referrer"
-                  >адрес</a>
-                </li>
-                <li class="address-list__item">
-                  <a class="address-list__link link" href="tel:+380961111111">
-                    +380961111111
-                  </a>
-                </li>
-                <li class="address-list__item">
-                  <a class="address-list__link link" href="tel:+380961111111">
-                    +380961111111
-                  </a>
-                </li>
-                <li class="address-list__item open_hours">
-                  <svg>
-                    <use></use>
-                  </svg>
-                  Пн-Пт - 09:00 -20:00
-                </li>
-              </ul>
-            </address>
-
-            <div class="form-container">
-              <form class="form">
-                <div class="form-groop">
-                  <label>
-                    <input type="text" placeholder="Полное Имя">
-                  </label>
-                </div>
-                <div class="form-groop">
-                  <label>
-                    <input type="text" placeholder="Полное Имя">
-                  </label>
-                </div>
-                <div class="form-groop ">
-                  <label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                  </label>
-                </div>
-                <button type="button">
-                  Свяжитесь с нами
-                </button>
-              </form>
+            <div class="form-groop">
+              <label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </label>
             </div>
-          </div>
-        </footer>
+            <button type="button">Свяжитесь с нами</button>
+          </form>
+        </div>
       </div>
-    
+    </footer>
 
     <script src="./js/mobile.js"></script>
   </body>

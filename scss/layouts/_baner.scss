@@ -1,0 +1,20 @@
+.banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--gren-baner-color);
+
+  &__img {
+    margin: 0 auto;
+  }
+
+  &__paragraph {
+    color: var(--white-color-text);
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 26.4px;
+
+    text-align: center;
+  }
+}
